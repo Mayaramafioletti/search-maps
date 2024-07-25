@@ -19,7 +19,7 @@ Siga os passos abaixo para clonar o repositório e rodar o projeto localmente.
 Clone o repositório para a sua máquina local usando o comando abaixo:
 
 ```
-git clone [https://github.com/Mayaramafioletti/search-maps.git](https://github.com/Mayaramafioletti/search-maps.git)
+git clone https://github.com/Mayaramafioletti/search-maps.git
 ```
 
 ### 2.  Navegar para o Diretório do Projeto
