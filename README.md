@@ -50,9 +50,13 @@ A aplicação estará disponível em http://localhost:4200.
 ## Funcionalidades
 
 Busca de endereços utilizando a API do Google Maps
+
 Exibição do mapa com a localização do endereço buscado
+
 Informações relevantes sobre o endereço (latitude, longitude, endereço formatado)
+
 ## Decisões de Design e Organização
+
 ### Layout Responsivo
  Utilização do Bootstrap para um layout responsivo e mobile-first.
 ### Estrutura Modular
