@@ -18,8 +18,9 @@ Siga os passos abaixo para clonar o repositório e rodar o projeto localmente.
 
 Clone o repositório para a sua máquina local usando o comando abaixo:
 
-```bash
-git clone https://github.com/seu-usuario/address-search-app.git
+```
+git clone [https://github.com/Mayaramafioletti/search-maps.git](https://github.com/Mayaramafioletti/search-maps.git)
+```
 
 ### 2.  Navegar para o Diretório do Projeto
 
@@ -27,20 +28,21 @@ Entre no diretório do projeto clonado:
 
 ```bash
 cd address-search-app
-
+```
 ### 3.  Instalar Dependências
 
 Instale as dependências do projeto usando o comando npm:
 
 ```bash
 npm install
-
+```
 ### 4. Rodar a aplicação
 
 Inicie o servidor de desenvolvimento com o comando:
 
 ```bash
 ng serve
+```
 
 A aplicação estará disponível em http://localhost:4200.
 
@@ -59,3 +61,8 @@ Componentes organizados de forma modular para facilitar a manutenção e expans�
 GoogleMapsService: Serviço responsável por fazer as requisições à API do Google Maps.
 ### Inicialização da Aplicação
 Utilização de bootstrapApplication no main.ts para inicializar a aplicação de maneira otimizada com componentes standalone.
+
+
+### Social:
+- [Mayara C. Mafioletti - github](https://github.com/Mayaramafioletti/)
+- [Mayara C. Mafioletti - linkedin](https://www.linkedin.com/in/mayara-mafioletti/)
