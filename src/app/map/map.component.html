@@ -1,0 +1,10 @@
+<div class="mb-4">
+  <p><strong>Endereço:</strong> {{ location.formatted_address }}</p>
+  <p><strong>Latitude:</strong> {{ location.geometry.location.lat }}</p>
+  <p><strong>Longitude:</strong> {{ location.geometry.location.lng }}</p>
+</div>
+<div class="map-container mb-4" style="height: 400px;">
+  <google-map height="100%" width="100%" [center]="center" [zoom]="15">
+    <map-marker [position]="center"></map-marker>
+  </google-map>
+</div>

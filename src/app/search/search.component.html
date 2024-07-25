@@ -1,0 +1,9 @@
+<div class="d-flex flex-column align-items-center justify-content-center vh-100">
+  <input #addresstext [(ngModel)]="address" (keyup.enter)="searchAddress()" class="form-control mb-4 w-75" placeholder="Digite o endereço">
+  <div *ngIf="addressInvalid" class="alert alert-danger w-75" role="alert">
+    Endereço não é válido. Por favor, tente novamente.
+  </div>
+  <div *ngIf="location" class="w-75">
+    <app-map [center]="center" [location]="location"></app-map>
+  </div>
+</div>
